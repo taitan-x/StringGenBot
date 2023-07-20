@@ -7,9 +7,9 @@ keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text="𝐆ᴇɴᴇʀᴀᴛᴇ 𝐒ᴇssɪᴏɴ", callback_data="gensession")],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
             InlineKeyboardButton(
-                text="♕︎ 𝐎ᴡɴᴇ𝐑 ♕︎", url="https://t.me/taitangamer"
+                text="♕︎ 𝐎ᴡɴᴇʀ ♕︎", url="https://t.me/taitangamer"
             ),
         ],
     ]
@@ -21,7 +21,7 @@ gen_key = InlineKeyboardMarkup(
             InlineKeyboardButton(text="𝐏ʏʀᴏɢʀᴀᴍ v1", callback_data="pyrogram1"),
             InlineKeyboardButton(text="𝐏ʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
         ],
-        [InlineKeyboardButton(text="ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
+        [InlineKeyboardButton(text="𝐓ᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
     ]
 )
 
